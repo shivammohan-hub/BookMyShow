@@ -9,15 +9,15 @@ const LatestPlays = () => {
         </div>
         <div className="w-full grid grid-cols-5 gap-10 mt-2">
 
-            <Card name="Party Animals" genre="Comedy" image="dancelikeman.png" />
+            <Card name="Dance Like a Man" genre="English" image="dancelikeman.png" />
 
-            <Card name="Ramayana" genre="Action/Adventure/Drama" image="27sec.png" />
+            <Card name="27 Seconds - Delhi Theatre Festival" genre="English" image="27sec.png" />
 
-            <Card name="Avengers: Doomsday" genre="Action/Adventure/Fantasy/Si-Fi" image="kaifiorme.png" />
+            <Card name="Kaifi Aur Main - Delhi Theatre Festival" genre="Hindi" image="kaifiorme.png" />
 
-            <Card name="Pyre" genre="Drama/Romantic" image="taj.png" />
+            <Card name="Taj Mahal ka Tender" genre="Hindustani" image="taj.png" />
 
-            <Card name="Godzilla Minus Zero" genre="Action/Adventure/Horror/Thriller" image="officeescape.png" />
+            <Card name="The Great Office Escape (Digital Detox Workshop)" genre="Hindi" image="officeescape.png" />
 
             
         </div>

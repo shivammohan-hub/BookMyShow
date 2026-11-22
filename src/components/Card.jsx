@@ -5,7 +5,7 @@ const Card = (props) => {
     let genre = props.genre ;
   return (
     <div>
-        <div className="flex flex-col gap-1.5">
+        <div className="flex flex-col gap-1">
             <img className="h-[350px] w-full rounded-lg" src={image} alt="" />
             <h3 className="text-lg font-semibold text-[15px] text-gray-800">{name}</h3>
             <h4 className="text-gray-600 text-sm">{address}</h4>
