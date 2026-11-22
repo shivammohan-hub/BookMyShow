@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import Card from "./Card"
 
 const MoviesList = () => {
@@ -11,9 +12,13 @@ const MoviesList = () => {
 
             <Card name="Party Animals" genre="Comedy" image="animalparty.png" />
 
-            <Card name="Ramayana" genre="Action/Adventure/Drama" image="ramayana.png" />
+            <Link to="/MovieDetails">
+              <Card name="Ramayana" genre="Action/Adventure/Drama" image="ramayana.png" />
+            </Link>
 
-            <Card name="Avengers: Doomsday" genre="Action/Adventure/Fantasy/Si-Fi" image="doomsday.png" />
+            <Link to="/DoomsdayDetails">
+              <Card name="Avengers: Doomsday" genre="Action/Adventure/Fantasy/Si-Fi" image="doomsday.png" />
+            </Link>
 
             <Card name="Pyre" genre="Drama/Romantic" image="pyre.png" />
 
