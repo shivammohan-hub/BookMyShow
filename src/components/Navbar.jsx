@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="px-[10%] py-2 flex items-center justify-between bg-gray-100 text-gray-800">
+    <div className="px-[10%] py-2 flex items-center justify-between bg-gray-100 text-gray-800 border-b">
         <div className="flex items-center gap-4 text-sm"> 
             <a href="">Movies</a>
             <a href="">Stream</a>
