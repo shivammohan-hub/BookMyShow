@@ -9,15 +9,15 @@ const OutdoorEvents = () => {
         </div>
         <div className="w-full grid grid-cols-5 gap-10 mt-2">
 
-            <Card name="Party Animals" genre="Comedy" image="sahitya.png" />
+            <Card name="Sahitya Aajtak 2026 - Delhi" address="Major Dhyanchand National Stadium Delhi" image="sahitya.png" />
 
-            <Card name="Ramayana" genre="Action/Adventure/Drama" image="ota.png" />
+            <Card name="Ota TOKYO 2026 - Delhi" address="Yashobhoomi Convention Center: Delhi" image="ota.png" />
 
-            <Card name="Avengers: Doomsday" genre="Action/Adventure/Fantasy/Si-Fi" image="planetariam.png" />
+            <Card name="Nehru Planetarium: Delhi." address="Nehru Planetarium: New Delhi." image="planetariam.png" />
 
-            <Card name="Pyre" genre="Drama/Romantic" image="manoj.png" />
+            <Card name="Manoj Muntashir's Krishna - Radha Se Ranbhumi Tak" address="Yashobhoomi Convention Center: Delhi" image="manoj.png" />
 
-            <Card name="Godzilla Minus Zero" genre="Action/Adventure/Horror/Thriller" image="runclub.png" />
+            <Card name="Run Club" address="Lodhi Gardens Main Entrance: Delhi" image="runclub.png" />
 
             
         </div>

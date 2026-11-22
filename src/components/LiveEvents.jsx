@@ -8,15 +8,15 @@ const LiveEvents = () => {
         </div>
         <div className="w-full grid grid-cols-5 gap-10 mt-2">
 
-            <LiveCard name="Party Animals" genre="Comedy" image="comedyshows.png" />
+            <LiveCard image="comedyshows.png" />
 
-            <LiveCard name="Ramayana" genre="Action/Adventure/Drama" image="amusement.png" />
+            <LiveCard image="amusement.png" />
 
-            <LiveCard name="Avengers: Doomsday" genre="Action/Adventure/Fantasy/Si-Fi" image="theatre.png" />
+            <LiveCard image="theatre.png" />
 
-            <LiveCard name="Pyre" genre="Drama/Romantic" image="pyre.png" />
+            <LiveCard image="kids.png" />
 
-            <LiveCard name="Godzilla Minus Zero" genre="Action/Adventure/Horror/Thriller" image="minus0.png" />
+            <LiveCard image="adventure.png" />
 
             
         </div>
