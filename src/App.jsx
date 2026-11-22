@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router'
 import './App.css'
 import Home from './pages/Home'
 import Signin from './pages/Signin'
-import MovieDetails from './pages/MovieDetails'
+import RamayanaDetails from './pages/RamayanaDetails'
 import DoomsdayDetails from './pages/DoomsdayDetails'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />}/>
       <Route path='/Signin' element={<Signin />}/>
-      <Route path="/MovieDetails" element={<MovieDetails />} />
+      <Route path="/RamayanaDetails" element={<RamayanaDetails />} />
       <Route path='/DoomsdayDetails' element={<DoomsdayDetails />}/>
 
     </Routes>

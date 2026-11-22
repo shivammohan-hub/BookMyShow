@@ -12,7 +12,7 @@ const MoviesList = () => {
 
             <Card name="Party Animals" genre="Comedy" image="animalparty.png" />
 
-            <Link to="/MovieDetails">
+            <Link to="/RamayanaDetails">
               <Card name="Ramayana" genre="Action/Adventure/Drama" image="ramayana.png" />
             </Link>
 

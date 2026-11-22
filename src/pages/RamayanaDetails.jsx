@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 
-const MovieDetails = () => {
+const RamayanaDetails = () => {
   return (
     <div className="w-full">
         <Header />
@@ -57,4 +57,4 @@ const MovieDetails = () => {
   );
 };
 
-export default MovieDetails;
+export default RamayanaDetails;
