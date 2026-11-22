@@ -5,7 +5,7 @@ import { BsSearch } from 'react-icons/bs';
 
 const Header = () => {
   return (
-    <div className="px-[10%] py-2.5 flex items-center justify-between">
+    <div className="px-[10%] py-3 flex items-center justify-between">
         <div className="flex gap-5 items-center">
             <a>
             <img className='w-28' src={logo} alt="BookMyShow" />
